@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Eophantasy\Types\Tests\String;
+namespace Eophantasy\Test\Types\String;
 
 use Eophantasy\Types\String\StringSequence;
 use Eophantasy\Types\String\StringValue;

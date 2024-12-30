@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Eophantasy\Types\Tests\String;
+namespace Eophantasy\Test\Types\String;
 
 use Eophantasy\Types\String\StringValue;
 use PHPUnit\Framework\TestCase;
@@ -35,6 +35,18 @@ class StringValueTest extends TestCase
 
         $this->assertNotSame($c, $a);
         $this->assertEquals(new StringValue('Hello, world!'), $c);
+    }
+
+    /**
+     * Tests the value method.
+     * 
+     * @return void
+     * @covers StringValue::value
+     */
+    public function testValue(): void
+    {
+        $a = new StringValue('Hello, world!');
+        $this->assertEquals('Hello, world!', $a->value());
     }
 
     /**

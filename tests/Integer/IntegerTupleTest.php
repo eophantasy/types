@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Eophantasy\Types\Tests\Integer;
+namespace Eophantasy\Test\Types\Integer;
 
 use Eophantasy\Types\Integer\IntegerTuple;
 use Eophantasy\Types\Integer\IntegerValue;

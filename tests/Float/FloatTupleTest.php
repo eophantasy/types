@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Eophantasy\Types\Tests\Float;
+namespace Eophantasy\Test\Types\Float;
 
 use Eophantasy\Types\Float\FloatTuple;
 use Eophantasy\Types\Float\FloatValue;

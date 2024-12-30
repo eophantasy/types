@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Eophantasy\Types\Tests\Integer;
+namespace Eophantasy\Test\Types\Integer;
 
 use DivisionByZeroError;
 use Eophantasy\Types\Integer\IntegerValue;
@@ -32,6 +32,18 @@ class IntegerValueTest extends TestCase
             IntegerValue::class,
             new IntegerValue(5)
         );
+    }
+
+    /**
+     * Tests the value method.
+     * 
+     * @return void
+     * @covers IntegerValue::value
+     */
+    public function testValue(): void
+    {
+        $a = new IntegerValue(5);
+        $this->assertEquals(5, $a->value());
     }
 
     /**
