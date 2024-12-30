@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Eophantasy\Test\Type\Float;
+namespace Eophantasy\Test\Types\Float;
 
-use Eophantasy\Type\Float\FloatTuple;
-use Eophantasy\Type\Float\FloatValue;
+use Eophantasy\Types\Float\FloatTuple;
+use Eophantasy\Types\Float\FloatValue;
 use PHPUnit\Framework\TestCase;
 
 /**

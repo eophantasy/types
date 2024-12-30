@@ -5,12 +5,12 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Eophantasy\\Type\\": "src/"
+            "Eophantasy\\Types\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Eophantasy\\Type\\Test\\": "tests/"
+            "Eophantasy\\Types\\Test\\": "tests/"
         }
     },
     "authors": [

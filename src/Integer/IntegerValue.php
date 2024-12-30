@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Eophantasy\Type\Integer;
+namespace Eophantasy\Types\Integer;
 
 use DivisionByZeroError;
 

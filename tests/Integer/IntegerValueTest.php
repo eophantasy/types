@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Eophantasy\Test\Type\Integer;
+namespace Eophantasy\Test\Types\Integer;
 
 use DivisionByZeroError;
-use Eophantasy\Type\Integer\IntegerValue;
+use Eophantasy\Types\Integer\IntegerValue;
 use PHPUnit\Framework\TestCase;
 
 /**

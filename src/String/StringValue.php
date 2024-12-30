@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Eophantasy\Type\String;
+namespace Eophantasy\Types\String;
 
 /**
  * A class representing a string.

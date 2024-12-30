@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Eophantasy\Type\Integer;
+namespace Eophantasy\Types\Integer;
 
 /**
  * An interface for objects that can be converted to an integer.

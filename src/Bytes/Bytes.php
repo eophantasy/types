@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Eophantasy\Type\Bytes;
+namespace Eophantasy\Types\Bytes;
 
 use Countable;
 use Iterator;

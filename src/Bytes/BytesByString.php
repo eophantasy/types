@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Eophantasy\Type\Bytes;
+namespace Eophantasy\Types\Bytes;
 
-use Eophantasy\Type\Bytes\Bytes;
+use Eophantasy\Types\Bytes\Bytes;
 
 /**
  * A class representing a sequence of bytes by a string.

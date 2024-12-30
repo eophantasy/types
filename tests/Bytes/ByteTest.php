@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Eophantasy\Test\Type\Bytes;
+namespace Eophantasy\Test\Types\Bytes;
 
-use Eophantasy\Type\Bytes\Byte;
+use Eophantasy\Types\Bytes\Byte;
 use PHPUnit\Framework\TestCase;
 
 /**
