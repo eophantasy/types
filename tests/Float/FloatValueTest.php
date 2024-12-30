@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Eophantasy\Types\Tests\Float;
+namespace Eophantasy\Test\Type\Float;
 
 use DivisionByZeroError;
-use Eophantasy\Types\Float\FloatValue;
+use Eophantasy\Type\Float\FloatValue;
 
 use PHPUnit\Framework\TestCase;
 
@@ -40,6 +40,18 @@ class FloatValueTest extends TestCase
             new FloatValue(16.0),
             $c
         );
+    }
+
+    /**
+     * Tests the value method.
+     * 
+     * @return void
+     * @covers FloatValue::value
+     */
+    public function testValue(): void
+    {
+        $a = new FloatValue(5.5);
+        $this->assertEquals(5.5, $a->value());
     }
 
     /**

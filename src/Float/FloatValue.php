@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Eophantasy\Types\Float;
+namespace Eophantasy\Type\Float;
 
 use DivisionByZeroError;
 
@@ -35,6 +35,16 @@ class FloatValue
     public function __construct(float $value)
     {
         $this->value = $value;
+    }
+
+    /**
+     * Returns the float value.
+     * 
+     * @return float
+     */
+    public function value(): float
+    {
+        return $this->value;
     }
 
     /**

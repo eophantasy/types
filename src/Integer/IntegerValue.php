@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Eophantasy\Types\Integer;
+namespace Eophantasy\Type\Integer;
 
 use DivisionByZeroError;
 
@@ -35,6 +35,16 @@ class IntegerValue
     public function __construct(int $value)
     {
         $this->value = $value;
+    }
+
+    /**
+     * Returns the integer value.
+     * 
+     * @return int
+     */
+    public function value(): int
+    {
+        return $this->value;
     }
 
     /**

@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Eophantasy\Types\String;
+namespace Eophantasy\Type\String;
 
 /**
  * A class representing a string.
@@ -33,6 +33,16 @@ class StringValue
     public function __construct(string $value)
     {
         $this->value = $value;
+    }
+
+    /**
+     * Returns the string value.
+     * 
+     * @return string
+     */
+    public function value(): string
+    {
+        return $this->value;
     }
 
     /**
