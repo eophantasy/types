@@ -3,6 +3,7 @@
     "description": "The library contains immutable objects to work with scalar types.",
     "type": "library",
     "license": "MIT",
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Eophantasy\\Types\\": "src/"
